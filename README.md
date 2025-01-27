@@ -6,3 +6,5 @@
 next.js
 
 typescript
+
+chatGPT4o
