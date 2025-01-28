@@ -19,7 +19,7 @@ export default function AboutMe (){
         </div>
         <div className="m-3">
             <h1 className="text-lg font-bold">skill</h1>
-            <table className="table-auto border-collapse border border-gray-300 w-[1/2] text-center">
+            <table className="table-auto border-collapse border border-gray-300 w-[1/2] md:w-auto text-center">
                 <thead>
                     <tr className="bg-gray-200">
                         <th className="border border-gray-300 px-4 py-2">技術</th>
