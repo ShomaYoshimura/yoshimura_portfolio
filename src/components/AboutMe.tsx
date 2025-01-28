@@ -29,27 +29,27 @@ export default function AboutMe (){
                 <tbody>
                     <tr>
                         <td className="border border-gray-300 px-4 py-2">言語</td>
-                        <td className="border border-gray-300 px-4 py-2">python,javascript,typescript</td>
+                        <td className="border border-gray-300 px-4 py-2">python<br/>javascript<br/>typescript</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-300 px-4 py-2">フレームワーク</td>
-                        <td className="border border-gray-300 px-4 py-2">Next.js,fastapi,Express</td>
+                        <td className="border border-gray-300 px-4 py-2">Next.js<br/>fastapi<br/>Express</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-300 px-4 py-2">AWS</td>
-                        <td className="border border-gray-300 px-4 py-2">lambda,EC2,DynamoDB,APIGateway,Amplify,cognito</td>
+                        <td className="border border-gray-300 px-4 py-2">lambda<br/>EC2<br/>DynamoDB<br/>APIGateway<br/>Amplify<br/>cognito</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-300 px-4 py-2">Google</td>
-                        <td className="border border-gray-300 px-4 py-2">App Script,Spreadsheet</td>
+                        <td className="border border-gray-300 px-4 py-2">App Script<br/>Spreadsheet</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-300 px-4 py-2">その他API連携</td>
-                        <td className="border border-gray-300 px-4 py-2">porters,chatwork,slack,line,kintone</td>
+                        <td className="border border-gray-300 px-4 py-2">porters<br/>chatwork<br/>slack<br/>line<br/>kintone</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-300 px-4 py-2">マーケティング</td>
-                        <td className="border border-gray-300 px-4 py-2">indeed,求人ボックス,スタンバイ</td>
+                        <td className="border border-gray-300 px-4 py-2">indeed<br/>求人ボックス<br/>スタンバイ</td>
                     </tr>
                 </tbody>
             </table>
