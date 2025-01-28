@@ -5,7 +5,7 @@ export default function AboutMe (){
     return (
         <>
         <div className="m-3">
-            <h1 className="text-lg font-bold">自己紹介</h1>
+            <h1 className="text-lg font-bold">Introduce</h1>
             <p>
                 よしむらと申します。無料でデプロイできるwebアプリケーションをメインに開発しております。<br/>
                 App Scriptをメインとした開発をしており、気軽に作成できて運用も無料でできるシステムを考え、

@@ -34,6 +34,9 @@ export default function RootLayout({
         <main className="pt-24">
           <div className="container mx-auto">{children}</div>
         </main>
+        <footer className="flex justify-center p-5 mt-5 bg-black text-white font-bold">
+          presented by Yoshimura
+        </footer>
       </body>
     </html>
   );

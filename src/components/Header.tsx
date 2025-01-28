@@ -33,8 +33,8 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#projects" className="block p-2 hover:text-gray-400">
-                Projects
+              <Link href="/service" className="block p-2 hover:text-gray-400">
+                Service
               </Link>
             </li>
             <li>
