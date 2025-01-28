@@ -1,5 +1,7 @@
 "use client"
+import Link from "next/link";
 import { useState } from "react";
+
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,7 +10,7 @@ export default function Header() {
     <header className="bg-black text-white fixed top-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* ロゴ / タイトル */}
-        <h1 className="text-lg font-bold">Yoshimura's Portfolio</h1>
+        <h1 className="text-lg font-bold">Yoshimura&apos;s Portfolio</h1>
 
         {/* ハンバーガーメニューボタン（モバイル用） */}
         <button
@@ -26,24 +28,24 @@ export default function Header() {
         >
           <ul className="md:flex md:space-x-4">
             <li>
-              <a href="/" className="block p-2 hover:text-gray-400">
+              <Link href="/" className="block p-2 hover:text-gray-400">
                 TOP
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#projects" className="block p-2 hover:text-gray-400">
+              <Link href="#projects" className="block p-2 hover:text-gray-400">
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="block p-2 hover:text-gray-400">
+              <Link href="/contact" className="block p-2 hover:text-gray-400">
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/mahjong" className="block p-2 hover:text-gray-400">
+              <Link href="/mahjong" className="block p-2 hover:text-gray-400">
                 mahjong
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

@@ -9,9 +9,9 @@ export default function Accounts(props:AccountsTypes){
     const url:string = props.url
     const title = props.title
     const sns:string = props.sns
-    if(props.img){
-        const img = props.img
-    }
+    // if(props.img){
+    //     const img = props.img
+    // }
     return (
         <>
         <div className={sns}>
