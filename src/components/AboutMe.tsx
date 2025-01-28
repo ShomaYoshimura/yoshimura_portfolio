@@ -19,40 +19,42 @@ export default function AboutMe (){
         </div>
         <div className="m-3">
             <h1 className="text-lg font-bold">skill</h1>
-            <table className="table-auto border-collapse border border-gray-300 w-[1/2] md:w-auto text-center">
-                <thead>
-                    <tr className="bg-gray-200">
-                        <th className="border border-gray-300 px-4 py-2">技術</th>
-                        <th className="border border-gray-300 px-4 py-2">詳細</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">言語</td>
-                        <td className="border border-gray-300 px-4 py-2">python<br/>javascript<br/>typescript</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">フレームワーク</td>
-                        <td className="border border-gray-300 px-4 py-2">Next.js<br/>fastapi<br/>Express</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">AWS</td>
-                        <td className="border border-gray-300 px-4 py-2">lambda<br/>EC2<br/>DynamoDB<br/>APIGateway<br/>Amplify<br/>cognito</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">Google</td>
-                        <td className="border border-gray-300 px-4 py-2">App Script<br/>Spreadsheet</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">その他API連携</td>
-                        <td className="border border-gray-300 px-4 py-2">porters<br/>chatwork<br/>slack<br/>line<br/>kintone</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">マーケティング</td>
-                        <td className="border border-gray-300 px-4 py-2">indeed<br/>求人ボックス<br/>スタンバイ</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div className="flex justify-center">
+                <table className="table-auto border-collapse border border-gray-300 w-full text-center">
+                    <thead>
+                        <tr className="bg-gray-200">
+                            <th className="border border-gray-300 px-4 py-2">技術</th>
+                            <th className="border border-gray-300 px-4 py-2">詳細</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">言語</td>
+                            <td className="border border-gray-300 px-4 py-2">python<br/>javascript<br/>typescript</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">フレームワーク</td>
+                            <td className="border border-gray-300 px-4 py-2">Next.js<br/>fastapi<br/>Express</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">AWS</td>
+                            <td className="border border-gray-300 px-4 py-2">lambda<br/>EC2<br/>DynamoDB<br/>APIGateway<br/>Amplify<br/>cognito</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">Google</td>
+                            <td className="border border-gray-300 px-4 py-2">App Script<br/>Spreadsheet</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">その他API連携</td>
+                            <td className="border border-gray-300 px-4 py-2">porters<br/>chatwork<br/>slack<br/>line<br/>kintone</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">マーケティング</td>
+                            <td className="border border-gray-300 px-4 py-2">indeed<br/>求人ボックス<br/>スタンバイ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div className="m-3">
             <h1 className="text-lg font-bold">Accounts</h1>
