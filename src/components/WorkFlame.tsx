@@ -34,7 +34,7 @@ export default function WorkFlame(props: WorkFlameType) {
           <>
             <div className="grid grid-cols-1">
               <h1 className="text-lg font-bold m-5">{props.title}</h1>
-              <p>
+              <p className="m-3">
                 {props.detail.split("\n").map((line, index) => (
                   <React.Fragment key={index}>
                     {line}
@@ -47,7 +47,7 @@ export default function WorkFlame(props: WorkFlameType) {
               <Image
                 src={props.imageUrl}
                 alt={props.title}
-                className="border-8 border-gray-500 rounded-xl p-4 shadow-xl cursor-pointer"
+                className="border-8 border-gray-500 rounded-xl p-4 shadow-xl cursor-pointer flex justify-center items-center"
                 width={1000}
                 height={1000}
                 onClick={() => handleImageClick(props.imageUrl)} // クリック時にポップアップを開く
@@ -60,7 +60,7 @@ export default function WorkFlame(props: WorkFlameType) {
               <Image
                 src={props.imageUrl}
                 alt={props.title}
-                className="border-8 border-gray-500 rounded-xl p-4 shadow-xl cursor-pointer"
+                className="border-8 border-gray-500 rounded-xl p-4 shadow-xl cursor-pointer flex justify-center items-center"
                 width={300}
                 height={200}
                 onClick={() => handleImageClick(props.imageUrl)} // クリック時にポップアップを開く
@@ -68,7 +68,7 @@ export default function WorkFlame(props: WorkFlameType) {
             </div>
             <div className="grid grid-cols-1">
               <h1 className="text-lg font-bold m-5">{props.title}</h1>
-              <p>
+              <p className="m-3">
                 {props.detail.split("\n").map((line, index) => (
                   <React.Fragment key={index}>
                     {line}

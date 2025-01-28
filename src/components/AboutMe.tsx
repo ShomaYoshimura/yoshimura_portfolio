@@ -63,6 +63,11 @@ export default function AboutMe (){
             title="github"
             sns="github"
             />
+            <Accounts 
+            url="https://qiita.com/ShomaYoshimura"
+            title="qiita"
+            sns="qiita"
+            />
         </div>
         </>
     )
